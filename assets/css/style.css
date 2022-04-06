@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #191919;
+  background: #000051;
   font-size: 15px;
   height: 40px;
   padding: 0;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #topbar .contact-info i {
-  color: #cc1616;
+  color: #5f5fc4;
   line-height: 0;
   margin-right: 5px;
 }
@@ -150,13 +150,13 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(25, 25, 25, 0.95);
+  background: #1a237e;
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
 }
 #header.fixed-top {
-  background: #191919;
+  background: #1a237e;
 }
 #header .logo {
   font-size: 30px;
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  background: #cc1616;
+  background: #5f5fc4;
 }
 .navbar .dropdown ul {
   display: block;
@@ -583,7 +583,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #cc1616;
+  background: #c5cae9;
   transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -620,18 +620,18 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #c5cae9;
+  border-color: #c5cae9;
   padding: 70px 20px 90px 20px;
 }
 .services .icon-box:hover .icon {
   background: #fff;
 }
-.services .icon-box:hover .icon i {
-  color: #cc1616;
+.services .icon-box:hover{
+  color: #c5cae9;
 }
 .services .icon-box:hover .icon::before {
-  background: #e82d2d;
+  background: #c5cae9;
 }
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
@@ -1103,7 +1103,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0c0c0c;
+  background: #000051;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1113,9 +1113,9 @@ section {
 }
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #191919;
+  background: #1a237e;
   color: #fff;
-  border-top: 4px solid #cc1616;
+  border-top: 4px solid #5f5fc4;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1135,7 +1135,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #262626;
+  background: #5f5fc4;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1147,7 +1147,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #cc1616;
+  background: #5f5fc4;
   color: #fff;
   text-decoration: none;
 }
@@ -1168,7 +1168,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ed5b5b;
+  color: #5f5fc4;
   font-size: 18px;
   line-height: 1;
 }
@@ -1187,7 +1187,7 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #eb4444;
+  color: #5f5fc4;
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1210,13 +1210,13 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #cc1616;
+  background: #5f5fc4;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #e82d2d;
+  background: #5f5fc4;
 }
 #footer .copyright {
   border-top: 1px solid #262626;
@@ -1230,7 +1230,7 @@ section {
   color: #fff;
 }
 #footer .credits a {
-  color: #e82d2d;
+  color: #5f5fc4;
 }
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
