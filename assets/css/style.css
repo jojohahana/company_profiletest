@@ -150,13 +150,13 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #1a237e;
+  background: #001064;
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
 }
 #header.fixed-top {
-  background: #1a237e;
+  background: #001064;
 }
 #header .logo {
   font-size: 30px;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/tch-bg.jpg") top center;
+  background: url("../img/tch-bg.JPG") top center;
   background-size: cover;
   position: relative;
 }
@@ -406,8 +406,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #5f5fc4;
+  border-color: #5f5fc4;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -521,7 +521,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ed5b5b;
+  color: #001064;
 }
 .why-us .box h4 {
   font-size: 24px;
@@ -537,7 +537,7 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: #cc1616;
+  background: #5f5fc4;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -634,6 +634,73 @@ section {
   background: #c5cae9;
 }
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Services2 2 Wheels Customers
+--------------------------------------------------------------*/
+.services2 .icon-box {
+  text-align: center;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.services2 .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #c5cae9;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+.services2 .icon-box .icon i {
+  color: #fff;
+  font-size: 28px;
+}
+.services2 .icon-box .icon::before {
+  position: absolute;
+  content: "";
+  left: -8px;
+  top: -8px;
+  height: 100%;
+  width: 100%;
+  background: #fce5e5;
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+.services2 .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.services2 .icon-box h4 a {
+  color: #191919;
+}
+.services2 .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.services2 .icon-box:hover {
+  background: #c5cae9;
+  border-color: #c5cae9;
+  padding: 70px 20px 90px 20px;
+}
+.services2 .icon-box:hover .icon {
+  background: #fff;
+}
+.services2 .icon-box:hover{
+  color: #c5cae9;
+}
+.services2 .icon-box:hover .icon::before {
+  background: #c5cae9;
+}
+.services2 .icon-box:hover h4 a, .services2 .icon-box:hover p {
   color: #fff;
 }
 
@@ -1113,7 +1180,7 @@ section {
 }
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #1a237e;
+  background: #001064;
   color: #fff;
   border-top: 4px solid #5f5fc4;
   text-align: center;
