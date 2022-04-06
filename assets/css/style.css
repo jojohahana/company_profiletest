@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #cc1616;
+  background: #283593;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #e72323;
+  background: #5f5fc4;
   color: #fff;
 }
 .back-to-top.active {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #cc1616;
+  border: 6px solid #283593;
   border-top-color: #efefef;
   border-radius: 50%;
   width: 60px;
@@ -490,6 +490,10 @@ section {
   font-size: 26px;
   text-align: justify;
 }
+
+.about .contact p {
+  text-align: justify;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -503,6 +507,34 @@ section {
   color: #cc1616;
 }
 .about .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# About2 --> TCH Plant
+--------------------------------------------------------------*/
+.about2 .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: justify;
+}
+
+.about2 .contact p {
+  text-align: justify;
+}
+.about2 .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about2 .content ul li {
+  padding-bottom: 10px;
+}
+.about2 .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #cc1616;
+}
+.about2 .content p:last-child {
   margin-bottom: 0;
 }
 
@@ -1020,7 +1052,7 @@ section {
   transition: 0.3s;
 }
 .team .member .social a:hover {
-  color: #cc1616;
+  color: #283593;
 }
 .team .member .social i {
   font-size: 18px;
@@ -1041,7 +1073,7 @@ section {
   color: #1c20e0;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f5a0a0;
+  border: 2px dotted #5f5fc4;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1102,7 +1134,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #cc1616;
+  background-color: #283593;
 }
 .contact .php-email-form input {
   padding: 10px 15px;
@@ -1111,14 +1143,14 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #cc1616;
+  background: #283593;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #e82d2d;
+  background: #5f5fc4;
 }
 @-webkit-keyframes animate-loading {
   0% {
