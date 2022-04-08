@@ -494,9 +494,15 @@ section {
 .about .contact p {
   text-align: justify;
 }
-.about .content ul {
+.about .vismis h5 {
   list-style: none;
   padding: 0;
+  text-align: center;
+}
+.about .vismis p {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
 }
 .about .content ul li {
   padding-bottom: 10px;
