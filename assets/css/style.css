@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #cc1616;
+  color: #283593;
   text-decoration: none;
 }
 
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #cc1616;
+  color: #283593;
 }
 
 @media (max-width: 991px) {
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #191919;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cc1616;
+  color: #283593;
   background: none;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #cc1616;
+  color: #283593;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -511,7 +511,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cc1616;
+  color: #283593;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -539,7 +539,7 @@ section {
 .about2 .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cc1616;
+  color: #283593;
 }
 .about2 .content p:last-child {
   margin-bottom: 0;
@@ -773,8 +773,8 @@ section {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #cc1616;
-  border: 2px solid #cc1616;
+  background: #283593;
+  border: 2px solid #283593;
 }
 
 /*--------------------------------------------------------------
@@ -839,7 +839,7 @@ section {
   color: #333333;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cc1616;
+  color: #283593;
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
@@ -886,10 +886,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #cc1616;
+  border: 1px solid #283593;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cc1616;
+  background-color: #283593;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -943,7 +943,7 @@ section {
 }
 .pricing .box h4 {
   font-size: 42px;
-  color: #cc1616;
+  color: #283593;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -970,7 +970,7 @@ section {
   padding-bottom: 16px;
 }
 .pricing .box ul i {
-  color: #cc1616;
+  color: #283593;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -983,7 +983,7 @@ section {
   text-align: center;
 }
 .pricing .box .btn-buy {
-  background: #cc1616;
+  background: #283593;
   display: inline-block;
   padding: 10px 40px;
   color: #fff;
@@ -998,7 +998,7 @@ section {
   background: #e82d2d;
 }
 .pricing .featured {
-  background: #cc1616;
+  background: #283593;
   box-shadow: none;
   color: #fff;
 }
@@ -1017,7 +1017,7 @@ section {
 }
 .pricing .featured .btn-buy:hover {
   background: #fff;
-  color: #cc1616;
+  color: #283593;
 }
 
 /*--------------------------------------------------------------
